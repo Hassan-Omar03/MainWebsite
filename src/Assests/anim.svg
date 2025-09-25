@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 { 
+        fill: #0f100e; 
+        filter: url(#filter); 
+        animation: expand-contract 4s ease-in-out infinite;
+        animation-delay: 0s;
+        transform-origin: center;
+      }
+      .cls-2 { 
+        fill: #121412; 
+        filter: url(#filter-2); 
+        animation: expand-contract 4s ease-in-out infinite;
+        animation-delay: 0.5s;
+        transform-origin: center;
+      }
+      .cls-3, .cls-4 { 
+        fill: #161616; 
+      }
+      .cls-3 { 
+        filter: url(#filter-3); 
+        animation: expand-contract 4s ease-in-out infinite;
+        animation-delay: 1s;
+        transform-origin: center;
+      }
+      .cls-4 { 
+        filter: url(#filter-4); 
+        animation: expand-contract 4s ease-in-out infinite;
+        animation-delay: 1.5s;
+        transform-origin: center;
+      }
+
+      @keyframes expand-contract {
+        0%, 100% {
+          transform: scale(1); /* No scaling */
+        }
+        50% {
+          transform: scale(1.05); /* Scale up to 5% larger */
+        }
+      }
+    </style>
+    <filter id="filter" x="-528" y="-948" width="2976" height="2976" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="9.592"/>
+      <feFlood result="flood" flood-opacity="0.54"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="-19" y="-439" width="1959" height="1959" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="9.592"/>
+      <feFlood result="flood" flood-opacity="0.54"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="205" y="-215" width="1511" height="1511" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="9.592"/>
+      <feFlood result="flood" flood-opacity="0.54"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="415" y="-5" width="1091" height="1091" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="9.592"/>
+      <feFlood result="flood" flood-opacity="0.54"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <g>
+      <circle id="Ellipse_1_copy_3" data-name="Ellipse 1 copy 3" class="cls-1" cx="959.5" cy="539.5" r="1394.5"/>
+      <circle id="Ellipse_1_copy_2" data-name="Ellipse 1 copy 2" class="cls-2" cx="960" cy="540" r="886"/>
+      <circle id="Ellipse_1_copy" data-name="Ellipse 1 copy" class="cls-3" cx="960" cy="540" r="662"/>
+      <circle class="cls-4" cx="960" cy="540" r="452"/>
+    </g>
+  </g>
+</svg>
