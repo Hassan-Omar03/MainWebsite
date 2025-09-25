@@ -752,7 +752,7 @@ export default function ServicesPage() {
             </div>
           </div>
 
-          <div className="hidden sm:block border-top border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-white text-xs sm:text-sm">
+          <div className="hidden sm:block border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 text-center text-white text-xs sm:text-sm">
             <a href="#" className="hover:text-white">{t.footer.privacyPolicy}</a> | <a href="#" className="hover:text-white">{t.footer.termsUse}</a>
           </div>
         </div>
